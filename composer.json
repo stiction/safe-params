@@ -1,5 +1,24 @@
 {
+    "name": "stiction/safe-params",
+    "type": "library",
+    "description": "sanitize params",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stiction",
+            "email": "258757028@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-bcmath": "*"
+    },
     "require-dev": {
         "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stiction\\SafeParams\\": "src/"
+        }
     }
 }
